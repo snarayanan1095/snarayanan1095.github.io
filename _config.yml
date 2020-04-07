@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Shwetha Narayanan"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Shwetha Narayanan"
+description              : "Hi! My name is Shwetha Narayanan"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Shwetha Narayanan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Hi! My name is Shwetha Narayanan"
+  location         : "USA"
+  email            : "narayanan.s@husky.neu.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -113,10 +113,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/snarayanan1095"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-LinkedIn"
+      url: "https://www.linkedin.com/in/shwetha-narayanan/"
 
 # Site Footer
 footer:
@@ -279,3 +279,13 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      
+
